@@ -24,7 +24,7 @@ import org.apache.spark.storage.StorageLevel
      * the Q5 is output data to disk ,the prediction is implemented by python , this is a time series problem ,so we 
      * use python Deep learning technique to predict the next second session,the LSTM is very well tools in prediction for time
      * series data.
-     * 
+     * The algorithm is faster ,I deal with the data in laptop (12 G mem,i5 cpu) is spend about 10-20 minute
      *  
      */
 object WeblogChangeAnalytical {
