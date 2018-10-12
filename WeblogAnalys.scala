@@ -17,8 +17,8 @@ import org.apache.spark.storage.StorageLevel
 /**
      * 
      * The code is for the Task Q1-Q7
-     * Developing environment is windows, spark,scala,jdk1.8,python
-     * Q1-Q4 is read the data and  data Pre-Procession in Spark,transform the data to easy understand format 
+     * Developing environment is windows, spark,scala,jdk1.8,pythonQ1-Q4
+     * The code is to read the data from local log file and  to process the data in Spark,transform the data to easy understand format 
      * the session is generate by the algorithm of "CART"(15 Minute),if we want to get higer accuracy we can use (1 minute)
      * the Q5 is output data to disk ,the prediction is implemented by python , this is a time series problem ,so we 
      * use python Deep learning technique to predict the next second session,the LSTM is very well tools in prediction for time
