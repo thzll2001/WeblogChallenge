@@ -122,7 +122,7 @@ object WeblogChangeAnalytical {
 
     println("=========================Start==================================")
     //read the file 
-    val logpath = "F:/geekspeakwork/code/wordmtrix/testmatrix/rl/challenge/WeblogChallenge/data/log/2015_07_22_mktplace_shop_web_log_sample2.log"
+    val logpath = "data/2015_07_22_mktplace_shop_web_log_sample2.log"
     val logrdd = sc.textFile(logpath, 1)
     
     
