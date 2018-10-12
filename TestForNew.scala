@@ -1,5 +1,12 @@
 
+/*
+Created on Thu Oct 2018
+@author: david zhangll
+thzll2001@gmail.com
+This is to analysis weblog data
 
+
+*/
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.SparkConf
 import org.apache.spark.SparkContext
@@ -101,7 +108,7 @@ object WeblogChangeAnalytical {
   
   val session_seqtime = 15 * 60  
   
-  def readLog(): Unit = {
+  def processLog(): Unit = {
 
     val conf: SparkConf = new SparkConf().setAppName("task1").setMaster("local[2]")
     val sc: SparkContext = new SparkContext(conf)
@@ -212,20 +219,13 @@ object WeblogChangeAnalytical {
     val total_number_oneip=oneip_session_url.count()    
     println("number of url is:",total_number_oneip)
     
-    
-    
+
 
   }
 
-  def predict()
-  {
-
-  
-  }
   
   def main(args: Array[String]): Unit = {
-    readLog()
-    predict()
+    processLog()
     
   }
 
