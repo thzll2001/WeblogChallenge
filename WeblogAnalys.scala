@@ -1,3 +1,9 @@
+/*
+Created on Thu Oct 2018
+@author: david zhangll
+thzll2001@gmail.com
+This is for  weblog data challeng
+*/
 package weblog
 
 import org.apache.spark.sql.SQLContext
