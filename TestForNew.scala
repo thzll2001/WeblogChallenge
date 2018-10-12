@@ -3,7 +3,7 @@
 Created on Thu Oct 2018
 @author: david zhangll
 thzll2001@gmail.com
-This is to analysis weblog data
+This is for  weblog data challenge
 
 
 */
