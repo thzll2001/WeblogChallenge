@@ -1,11 +1,11 @@
 /**
  * =========================================
- * Weblog Challenge
+ * Weblog 
  * =========================================
  * 
  * spark-shell --master local[4] --driver-memory 2g
  *
- * spark-submit --master local[4] target/WeblogChallenge-0.1.0-jar-with-dependencies.jar 3 14.141.255.74
+ * spark-submit --master local[4] target/Weblog-0.1.0-jar-with-dependencies.jar 3 14.141.255.74
  *
  */
 
